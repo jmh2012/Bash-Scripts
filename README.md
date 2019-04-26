@@ -8,7 +8,7 @@ Repo to store my general purpose bash scripts.
 
 *check_ip.sh* - A cronjob for running a server on home internet without a static IP, it will send an email if the external IP changes. Run every 30 minutes.
 
-*dns-diff.sh* - A cronjob that will initiate a zone transfer, compare the BIND zone file with a known copy, and commit changes to a repo. Can be used for version control of DNS zones. Run every 5 minutes because that's the minimum TTL for a DNS record.
+*dns-diff.sh* - A cronjob that will initiate a DNS zone transfer, compare the BIND zone file with a known copy, and push changes to a repo. Can be used for version control of DNS zones. Run every 5 minutes because that's the minimum TTL for a DNS record.
 
 *get_ips.sh* - Run with a log file as an argument and get a sorted list of unique IPv4 addresses from it, used to check access logs, etc.
 
