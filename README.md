@@ -10,6 +10,8 @@ Repo to store my general purpose bash scripts.
 
 *dns-diff.sh* - A cronjob that will initiate a DNS zone transfer, compare the BIND zone file with a known copy, and push changes to a repo. Can be used for version control of DNS zones. Run every 5 minutes because that's the minimum TTL for a DNS record.
 
+*get_ip_info.sh* - Takes hostname or IP as argument, uses keycdn.com API to get information on an IP address.
+
 *get_ips.sh* - Run with a log file as an argument and get a sorted list of unique IPv4 addresses from it, used to check access logs, etc.
 
 *logwatch.sh* - Simple cronjob to run logwatch, logwatch can send email on its own if an MTA is running, this can be used otherwise. Run nightly.
