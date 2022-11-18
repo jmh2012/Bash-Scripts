@@ -21,3 +21,5 @@ Repo to store my general purpose bash scripts.
 *vpn_client.sh* - Used on an openvpn server, set this to run on client-connect in the openvpn config and it will email a notification when a client connects.
 
 *kanboard_bootstrap.sh* - Bootstraps a Kanboard server on Ubuntu based systems (tested on Armbian).
+
+*hex.sh* - decimal/hex conversions
